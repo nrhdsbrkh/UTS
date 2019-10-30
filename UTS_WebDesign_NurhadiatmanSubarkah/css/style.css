@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../ewe333321.jpg);
+	height: 100vh;
+	background-size: cover;
+
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 3%;
+	margin-left: : 0px;
+}
+
+ul li{
+	display: inline-block;
+	text-align: center;
+}
+ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 40px;
+	border: 5px solid transparent;
+	transition: 0.8s ease;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.dnlogo {
+	float: right;
+	margin-top: 3%;
+}
+
+.logo img{
+	position: absolute;
+	top:88%;
+	left: 90%;
+	width: 150px;
+}	
+.main{
+	max-width: 1800px;
+	margin: auto;
+}
+.title img{ 
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.tombol img{
+	position: absolute;
+	top: 20%;
+	left: 14%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border:none;
+	cursor: pointer;
+	overflow: hidden;
+	transition: 0.5s ease;
+	opacity: 0.75;
+	animation: jello-horizontal 1.5s infinite both;
+
+}
+
+.tombol img:hover{
+	opacity: 1;
+	transition: 0.5s ease;
+}
+
+.tombol img:active{
+	transform: translateY(5px);
+	transition: 0.1s ease;
+}
+.tombol1 img{
+	position: absolute;
+	top: 25%;
+	left: 78%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border:none;
+	cursor: pointer;
+	overflow: hidden;
+	transition: 0.8s ease;
+	opacity: 0.6;
+}
+
+
+
+.tombol1 img:hover{
+	opacity: 1;
+	transition: 0.8s ease;
+}
+
+.tombol1 img:active{
+	transform: translateY(5px);
+	transition: 0.8s ease;
+}
+
+.teks{
+	position: absolute;
+	top: 93%;
+	left: 33%;
+	color: #fffdd0;
+	font-size: 20px;
+}
+
+.argenta{ 
+position: absolute;
+	top: 43.1%;
+	left: -6%;
+	animation: heartbeat 1.5s ease-in-out infinite both;
+
+}
+.video{
+	position: fixed;
+	width: 350px;
+	height: 250px;
+	top:15%;
+	left:23%;
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+        }
+        @keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
